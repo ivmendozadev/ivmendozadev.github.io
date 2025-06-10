@@ -39,11 +39,17 @@ export const projects: Project[] = [
   }, //aquí va una , para agregar otro slide projects
   {
     id: 2,
-    title: "Prueba",
+    title: "Automated Financial Reporting System",
     summary: "Created an automated ETL pipeline to streamline financial reporting, reducing manual data processing time for a financial services firm.",
     images: [
       "https://example.com/finance1.jpg",
       "https://example.com/finance2.jpg"
     ],
+    tags: [],
+    details: {
+      challenge:"",
+      solution: "",
+      impact: []
+    }
   }
 ];
