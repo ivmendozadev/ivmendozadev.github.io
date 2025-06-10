@@ -15,7 +15,7 @@ export interface Project {
   };
 }
 
-export interface Certifications {
+export interface Certification {
   id: number;
   title: string;
   summary: string;
@@ -47,7 +47,7 @@ export const projects: Project[] = [
   } //aquí va una , para agregar otro slide projects
 ];
 
-export const projects: Certifications[] = [
+export const certifications: Certification[] = [
   {
     id: 1,
     title: "AWS CLOUD",
