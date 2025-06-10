@@ -6,6 +6,8 @@ export const heroData = {
   skills: [
     'SQL',
     'ETL',
+    'AbInitio SUIT',
+    'Autosys & Control Center',
     'AWS',
     'Python',
     'Microsoft Office',
