@@ -51,5 +51,19 @@ export const projects: Project[] = [
       solution: "",
       impact: []
     }
-  }
+  },
+    {
+    id: 3,
+    title: "Fundamentos en la nube 4.0",
+    summary: "Fundamentos para la nube en la Industria 4.0 con tecnología Microsoft",
+    images: [
+      "https://i.postimg.cc/Njf0tn3b/Fundamentos-para-la-nube-en-la-industria-4-0-Microsoft.png",
+    ],
+    tags: ["Microsoft"],
+    details: {
+      challenge: "",
+      solution: "",
+      impact: []
+    }
+  },
 ];
