@@ -36,7 +36,7 @@ export const projects: Project[] = [
         "Acceso a la plataforma 24/7."
       ]
     }
-  } //aquí va una , para agregar otro slide projects
+  }, //aquí va una , para agregar otro slide projects
   {
     id: 2,
     title: "Automated Financial Reporting System",
@@ -45,5 +45,5 @@ export const projects: Project[] = [
       "https://example.com/finance1.jpg",
       "https://example.com/finance2.jpg"
     ],
-  } 
+  }
 ];
