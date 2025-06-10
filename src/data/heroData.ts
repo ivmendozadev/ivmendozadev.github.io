@@ -1,25 +1,22 @@
 export const heroData = {
-  name: 'John Doe',
-  title: 'Full-Stack Developer',
+  name: 'Ivan Juan Mendoza Gil',
+  title: 'ETL | Developer | Data Analyst',
   description: 'I build scalable web applications and transform raw data into meaningful insights that drive business success.',
   profilePicture: 'https://drive.google.com/file/d/1L8-mcy64MvpT1i4mWQQ5GdHingaNUFeR/view?usp=sharing',
   skills: [
-    'JavaScript',
-    'React',
-    'Node.js',
     'SQL',
-    'Python',
-    'Power BI',
-    'DAX',
     'ETL',
-    'Data Modeling',
-    'API Development',
-    'Cloud Computing',
-    'Machine Learning'
+    'AWS',
+    'Python',
+    'Microsoft Office',
+    'BASH',
+    'Java',
+    'Java Script',
+    'HTML'
   ],
   contact: {
-    github: 'https://github.com/johndoe',
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    email: 'johndoe@example.com'
+    github: 'https://github.com/ivmendozadev',
+    linkedin: 'https://www.linkedin.com/in/ivmendozagil/',
+    email: 'mendozaivangil1@gmail.com'
   }
 };
