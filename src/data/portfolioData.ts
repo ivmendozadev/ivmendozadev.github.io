@@ -15,13 +15,6 @@ export interface Project {
   };
 }
 
-export interface Certification {
-  id: number;
-  title: string;
-  summary: string;
-  images: string[];
-  tags: string[];
-}
 
 export const projects: Project[] = [
   {
@@ -44,19 +37,19 @@ export const projects: Project[] = [
         "Acceso a la plataforma 24/7."
       ]
     }
-  } //aquí va una , para agregar otro slide projects
-];
-
-export const certifications: Certification[] = [
+  }, //aquí va una , para agregar otro slide projects
   {
-    id: 1,
-    title: "AWS CLOUD",
-    summary: "Desarrollar un sistema de expedientes web, donde los médicos especialistas puedan dar de alta pacientes, realizar reportes, imprimirlos y consultarlos en cualquier momento",
+    id: 2,
+    title: "AWS CERTIFCATION",
+    summary: "AWS Certified Cloud Practitioner - GD0S1T7C9ME1Q594",
     images: [
-      "https://i.postimg.cc/kMjZZbXz/alta-paciente.png",
-      "https://i.postimg.cc/90fk0W1L/gestion-de-pacientes.png",
-      "https://i.postimg.cc/0jHBJLBP/historial-clinico.png"
+      "https://i.postimg.cc/brWRPbJ9/AWS-Certified-Cloud-Practitioner-certificate.png",
     ],
-    tags:[]
+    tags: ["AWS"],
+    details: {
+      challenge: "",
+      solution: "",
+      impact: []
+    }
   }
 ];
