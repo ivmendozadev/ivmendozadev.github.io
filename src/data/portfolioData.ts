@@ -17,16 +17,16 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Customer Insights Dashboard for E-Commerce",
-    summary: "Developed an interactive Power BI dashboard to analyze customer behavior, sales trends, and marketing performance for an e-commerce company.",
+    title: "Expediente Electronico Chabely",
+    summary: "Desarrollar un sistema de expedientes web, donde los médicos especialistas puedan dar de alta pacientes, realizar expedientes, imprimirlos y consultarlos en cualquier momento",
     images: [
-      "https://example.com/dashboard1.jpg",
-      "https://example.com/dashboard2.jpg",
-      "https://example.com/dashboard3.jpg"
+      "https://i.postimg.cc/kMjZZbXz/alta-paciente.png",
+      "https://i.postimg.cc/90fk0W1L/gestion-de-pacientes.png",
+      "https://i.postimg.cc/0jHBJLBP/historial-clinico.png"
     ],
-    tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence"],
+    tags: ["HTML", "SQL", "PHP", "CSS", "mPDF"],
     details: {
-      challenge: "The company lacked a centralized reporting system to track customer engagement, purchase patterns, and marketing campaign effectiveness.",
+      challenge: "La fundación requiere de un sistema web para sus pacientes que sea rápido y se puedan consultar los expedientes realizados en cualquier momento.",
       solution: "Designed and implemented a Power BI dashboard integrating data from Google Analytics, CRM systems, and sales records, providing real-time insights.",
       impact: [
         "Increased marketing ROI by 25% through data-driven campaign adjustments.",
