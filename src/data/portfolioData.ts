@@ -18,7 +18,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Expediente Electronico Chabely",
-    summary: "Desarrollar un sistema de expedientes web, donde los médicos especialistas puedan dar de alta pacientes, realizar expedientes, imprimirlos y consultarlos en cualquier momento",
+    summary: "Desarrollar un sistema de expedientes web, donde los médicos especialistas puedan dar de alta pacientes, realizar reportes, imprimirlos y consultarlos en cualquier momento",
     images: [
       "https://i.postimg.cc/kMjZZbXz/alta-paciente.png",
       "https://i.postimg.cc/90fk0W1L/gestion-de-pacientes.png",
@@ -26,15 +26,17 @@ export const projects: Project[] = [
     ],
     tags: ["HTML", "SQL", "PHP", "CSS", "mPDF"],
     details: {
-      challenge: "La fundación requiere de un sistema web para sus pacientes que sea rápido y se puedan consultar los expedientes realizados en cualquier momento.",
-      solution: "Designed and implemented a Power BI dashboard integrating data from Google Analytics, CRM systems, and sales records, providing real-time insights.",
-      impact: [
-        "Increased marketing ROI by 25% through data-driven campaign adjustments.",
-        "Enhanced customer segmentation, leading to a 15% improvement in personalized recommendations and repeat purchases."
+      Reto: "La fundación requiere de un sistema web para sus pacientes que sea rápido y se puedan consultar los expedientes realizados en cualquier momento.",
+      solución: "Diseñar e implementar un CRUD Web responsive, de fácil acceso y navegación utilizando las siguientes técnologías SQL, HTML, PHP para el desarrollo y Frameworks que ayuden a facilitar el mismo",
+      impacto: [
+        "Realizar un expediente completo de los pacientes de la clínica.",
+        "Mejor manejo de pacientes.",
+        "Consulta de reportes y modificación de datos en tiempo real.",
+        "Acceso a la plataforma 24/7."
       ]
     }
-  },
-  {
+  } //aquí va una , para agregar otro slide projects
+ /* {
     id: 2,
     title: "Automated Financial Reporting System",
     summary: "Created an automated ETL pipeline to streamline financial reporting, reducing manual data processing time for a financial services firm.",
@@ -51,5 +53,5 @@ export const projects: Project[] = [
         "Minimized errors in financial reports, ensuring data accuracy for decision-making."
       ]
     }
-  }
+  } */
 ];
