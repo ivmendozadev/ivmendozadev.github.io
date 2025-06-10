@@ -6,6 +6,7 @@ export const heroData = {
   skills: [
     'SQL',
     'ETL',
+    'Jira',
     'AbInitio SUIT',
     'Autosys & Control Center',
     'AWS',

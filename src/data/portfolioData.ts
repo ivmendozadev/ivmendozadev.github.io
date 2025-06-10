@@ -66,4 +66,48 @@ export const projects: Project[] = [
       impact: []
     }
   },
+  {
+  id: 4,
+    title: "Ciclo de Vida Sofware",
+    summary: "NTT DATA 19 Agosto 2024",
+    images: [
+      "https://i.postimg.cc/cH8Hj8pS/Ciclo-de-Vida-Software-NTTDATA.png",
+    ],
+    tags: ["NTT DATA"],
+    details: {
+      challenge: "",
+      solution: "",
+      impact: []
+    }
+  },
+  {
+  id: 5,
+    title: "Diploma Platzi - Diciembre 2020",
+    summary: "Estrategías para aprender en línea efectivamente",
+    images: [
+      "https://i.postimg.cc/cH8Hj8pS/Ciclo-de-Vida-Software-NTTDATA.png",
+    ],
+    tags: ["Platzi"],
+    details: {
+      challenge: "",
+      solution: "",
+      impact: []
+    }
+  },
+  {
+  id: 5,
+    title: "Carta de Recomendación",
+    summary: "Fundación Chabely Mayo 2021",
+    images: [
+      "https://i.postimg.cc/wxLMQL55/Carta-de-Recomendaci-n-Chabely.png",
+    ],
+    tags: ["Platzi"],
+    details: {
+      challenge: "",
+      solution: "",
+      impact: []
+    }
+  }, 
+  
+  
 ];
