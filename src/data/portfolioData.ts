@@ -15,6 +15,14 @@ export interface Project {
   };
 }
 
+export interface Certifications {
+  id: number;
+  title: string;
+  summary: string;
+  images: string[];
+  tags: string[];
+}
+
 export const projects: Project[] = [
   {
     id: 1,
@@ -36,20 +44,19 @@ export const projects: Project[] = [
         "Acceso a la plataforma 24/7."
       ]
     }
-  }, //aquí va una , para agregar otro slide projects
+  } //aquí va una , para agregar otro slide projects
+];
+
+export const projects: Certifications[] = [
   {
-    id: 2,
-    title: "Automated Financial Reporting System",
-    summary: "Created an automated ETL pipeline to streamline financial reporting, reducing manual data processing time for a financial services firm.",
+    id: 1,
+    title: "AWS CLOUD",
+    summary: "Desarrollar un sistema de expedientes web, donde los médicos especialistas puedan dar de alta pacientes, realizar reportes, imprimirlos y consultarlos en cualquier momento",
     images: [
-      "https://example.com/finance1.jpg",
-      "https://example.com/finance2.jpg"
+      "https://i.postimg.cc/kMjZZbXz/alta-paciente.png",
+      "https://i.postimg.cc/90fk0W1L/gestion-de-pacientes.png",
+      "https://i.postimg.cc/0jHBJLBP/historial-clinico.png"
     ],
-    tags: [],
-    details: {
-      challenge:"",
-      solution: "",
-      impact: []
-    }
+    tags:[]
   }
 ];
