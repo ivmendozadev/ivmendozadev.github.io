@@ -26,11 +26,11 @@ export const projects: Project[] = [
     ],
     tags: ["HTML", "SQL", "PHP", "CSS", "mPDF"],
     details: {
-      Reto: "La fundación requiere de un sistema web para sus pacientes que sea rápido y se puedan consultar los expedientes realizados en cualquier momento.",
-      solución: "Diseñar e implementar un CRUD Web responsive, de fácil acceso y navegación utilizando las siguientes técnologías SQL, HTML, PHP para el desarrollo y Frameworks que ayuden a facilitar el mismo",
-      impacto: [
-        "Realizar un expediente completo de los pacientes de la clínica.",
-        "Mejor manejo de pacientes.",
+      challenge: "La fundación requiere de un sistema web para sus pacientes que sea rápido y se puedan consultar los expedientes realizados en cualquier momento.",
+      solution: "Diseñar e implementar un CRUD Web responsive, de fácil acceso y navegación utilizando las siguientes técnologías SQL, HTML, PHP para el desarrollo y Frameworks que ayuden a facilitar el mismo",
+      impact: [
+        "Se tendrá el expediente completo de los pacientes.",
+        "Los médicos especialistas pueden consultar los expedientes de cada área y todos estaran informados.",
         "Consulta de reportes y modificación de datos en tiempo real.",
         "Acceso a la plataforma 24/7."
       ]
