@@ -51,7 +51,7 @@ export const jobs: Job[] = [
     description: [
       "Diseño y creación de la base datos con MySQL.",
       "Diseñe la UI del sitio web",
-      "•Programé los modulos de la página utilizando para backend el lenguaje PHP y para front end HTML5 y bootsrap 5 para que el sitio fuera responsive."
+      "Programé los modulos de la página utilizando para backend el lenguaje PHP y para front end HTML5 y bootsrap 5 para que el sitio fuera responsive."
     ]
   }
 
