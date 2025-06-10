@@ -1,7 +1,7 @@
 export const heroData = {
   name: 'Ivan Juan Mendoza Gil',
   title: 'ETL | Developer | Data Analyst',
-  description: 'I build scalable web applications and transform raw data into meaningful insights that drive business success.',
+  description: 'Desarrollador profesional especializado en análisis de datos y desarrollo, con un perfil orientado a resultados y una sólida experiencia en tecnologías de la información.',
   profilePicture: 'https://i.postimg.cc/yNbM4Cvc/Profile.jpg',
   skills: [
     'SQL',
