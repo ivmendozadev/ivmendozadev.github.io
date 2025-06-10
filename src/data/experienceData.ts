@@ -7,29 +7,41 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
-    title: "Data Analyst",
-    company: "Tech Solutions Inc.",
-    dates: "01/2019 - 12/2022",
+    title: "Etl AbInitio Developer",
+    company: "NTT DATA.",
+    dates: "07/2021 - 04/2025",
     description: [
-      "Developed interactive Power BI dashboards to analyze business performance and customer trends.",
-      "Automated ETL processes using Python and SQL to improve data processing efficiency by 40%.",
-      "Collaborated with stakeholders to identify key performance metrics and optimize reporting strategies.",
-      "Designed predictive models to forecast revenue and customer churn, providing actionable insights.",
-      "Managed data extraction from multiple sources, including APIs, databases, and cloud storage.",
-      "Presented analytical findings to executive teams, leading to data-driven decision-making."
+      "•	Documenté nuevos estándares y mejores prácticas para procesos de manejo de datos y desarrollos ETL",
+      "•	Desarrollé Scripts que automatizaron la ejecución de ETLS y limpieza de datos.",
+      "•	Analista de datos en el área de Data Fundations manejaba de herramientas como Ab Initio (Metadata Hub, GDE,EME, Express It, Control Center), Autosys, Python y Linux Bash Shell Scripting junto con bases de datos como MongoDB, SQL Server, Oracle SQL Developer y PostgreSQL.",
+      "•	Usó Ab Initio (Metadata Hub, EME, Express>IT, Control Center) para el procesamiento y transformación de datos.",
+      "•	Desarrolle y modifique grafos para el escaneo de metadata utilizando GDE Abinitio.",
+      "•	Usó Autosys para la automatización de flujos de trabajo y procesos ETL/ELT.",
+      "•	Desarrollé Scripts de procesos batch en entornos Linux y la administración de flujos de trabajo en Autosys mediante la creación de JILLs.",
+      "•	Levantamiento y seguimiento de incidencias, CR’S, REQU’S con Service Now además de atender liberaciones para ambiente productivo."
+
     ]
   },
   {
-    title: "Software Engineer",
-    company: "Innovatech Solutions",
-    dates: "03/2023 - Present",
+    title: "Technical Support",
+    company: "Instituto Renacimiento",
+    dates: "04/2021 - 06/2021",
     description: [
-      "Developed full-stack web applications using React, Node.js, and MongoDB.",
-      "Implemented RESTful APIs and integrated third-party services for enhanced application functionality.",
-      "Optimized SQL queries and database schemas to improve system performance.",
-      "Led a team of junior developers, mentoring them on best practices in software engineering.",
-      "Designed and implemented CI/CD pipelines, reducing deployment time by 50%.",
-      "Collaborated with UX/UI designers to enhance the user experience of web applications."
+      "•	Realizaba mantenimiento a los equipos de cómputo de la institución, así como a otros dispositivos como impresoras y proyectores.",
+      "•	Administraba la red de la escuela.",
+      "•	Realizaba instalación y configuración de software y hardware.",
+      "•	Gestionaba e inventariaba los recursos tecnológicos del instituto.",
+      "•	Realizaba seguimiento y solucionaba los problemas técnicos."
+    ]
+  },
+    {
+    title: "Web Developer",
+    company: "Fundación Chabely",
+    dates: "01/2021 - 04/2021",
+    description: [
+      "•	Diseño y creación de la base datos con MySQL.",
+      "•	Diseñe la UI del sitio web",
+      "•	•	Programé los modulos de la página utilizando para backend el lenguaje PHP y para front end HTML5 y bootsrap 5 para que el sitio fuera responsive."
     ]
   }
 ];
